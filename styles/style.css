@@ -265,3 +265,15 @@ color: rgb(126, 126, 126);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
 
 }
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a40;
+    color: white;
+    gap:0.2rem;    
+}
+.footer a{
+    text-decoration: none;
+    color: wheat;
+} 
