@@ -13,7 +13,7 @@ li{
 .container{
     display: grid;
     grid-template-columns: 0.65fr 4fr;
-    grid-template-rows: 0.75fr 0.35fr 3fr 0.45fr;
+    grid-template-rows: 0.55fr 0.35fr 3fr 0.173fr;
     /* height: 100vh; */
 }
 .dashboard{
@@ -192,12 +192,14 @@ button{
 }
 .project{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 0.75fr));
     gap: 1rem;
     grid-column: 1/2;
 }
 .content-right{
     grid-column: 2/3;
+    display: grid;
+    gap:1rem;
 }
 .sub-title{
     font-weight: bold;
@@ -223,10 +225,43 @@ button{
     font-size: 0.75rem;
     background-color: white;
     border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 .announcements>div{
     padding: 1rem;
 }
 .announcement-text{
 color: rgb(126, 126, 126);
+}
+.trending-title{
+    font-weight: bold;
+}
+.profile1,.profile2,.profile3,.profile4{
+    display: flex;
+    gap:0.5rem;
+}
+.profile-img img{
+    border-radius: 50%;
+}
+.tag{
+    font-size: 0.85rem;
+}
+.profile-slogan{
+    font-size: 0.65rem;
+    color: rgb(126, 126, 126);
+}
+.trending{
+    display: flex;
+    flex-direction: column;
+    gap:0.75rem;
+}
+.trending-down{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+
 }
