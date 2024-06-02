@@ -34,7 +34,7 @@ li{
     padding: 2rem;
     display: grid;
     /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
-    grid-template-columns: 2.25fr 1fr;
+    grid-template-columns: 2.25fr 0.75fr;
     gap: 1rem;
 }
 .footer{
@@ -211,4 +211,22 @@ button{
     display:flex;
     justify-content: flex-end;
     gap:0.5rem;
+}
+.announcements-title{
+    font-weight: bold;
+}
+.announcement-title{
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+.announcements{
+    font-size: 0.75rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+.announcements>div{
+    padding: 1rem;
+}
+.announcement-text{
+color: rgb(126, 126, 126);
 }
